@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 ## Kubernetes CLI ref.
 
 ### General
