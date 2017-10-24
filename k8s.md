@@ -149,7 +149,7 @@ kubectl get psp
 kubectl edit psp permissive  
 kubectl delete psp permissive  
 
-wordpress example,  
+wordpress example  
 -----------------------------  
 kubectl create -f local-volumes.yaml  
 kubectl get pv  
