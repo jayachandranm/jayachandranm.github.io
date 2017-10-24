@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 ## Useful Docker Commands
 
 Quick listing of common docker commands.
