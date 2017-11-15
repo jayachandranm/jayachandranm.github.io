@@ -4,7 +4,7 @@
 ## Kubernetes CLI ref.
 
 ### General
-3run master (minikube) first.  
+run master (minikube) first.  
 minikube start (--vm-driver=virtualbox)  
 kubectl version  
 kubectl cluster-info  
@@ -149,8 +149,7 @@ kubectl get psp
 kubectl edit psp permissive  
 kubectl delete psp permissive  
 
-wordpress example  
------------------------------  
+### Wordpress example  
 kubectl create -f local-volumes.yaml  
 kubectl get pv  
 kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD  
@@ -165,3 +164,40 @@ kubectl delete deployment -l app=wordpress
 kubectl delete service -l app=wordpress  
 kubectl delete pvc -l app=wordpress  
 kubectl delete pv local-pv-1 local-pv-2  
+
+
+### Setup
+minikube start  
+(Minikube VM boots into a tmpfs)  
+(Minikube is configured to persist files stored under the following host directories)  
+ImagePullSecrets  
+eval $(minikube docker-env)  
+docker ps  
+minikube get-k8s-versions  
+minikube start --kubernetes-version v1.7.3  
+minikube dashboard  
+minikube service [-n NAMESPACE] [--url] NAME  
+minikube ip  
+kubectl get service $SERVICE --output='jsonpath="{.spec.ports[0].nodePort}"'  
+minikube start --docker-env HTTP_PROXY=http://$YOURPROXY:PORT  
+minikube stop  
+minikube delete  
+
+kubeadm - create custom cluster from scratch  
+kubectl api-versions  
+
+### StatefulSet
+for i in 0 1; do kubectl exec web-$i -- sh -c 'echo $(hostname) > /usr/share/nginx/html/index.html'; done  
+for i in 0 1; do kubectl exec -it web-$i -- curl localhost; done  
+kubectl delete statefulsets web  
+kubectl delete pod -l app=nginx  
+kubectl get pods -w -l app=nginx  
+kubectl scale sts web --replicas=5  
+kubectl patch sts web -p '{"spec":{"replicas":3}}'  
+kubectl patch statefulset web -p '{"spec":{"updateStrategy":{"type":"RollingUpdate"}}}'  
+
+kubectl cordon $MYSQL_NODE  
+kubectl uncordon $MYSQL_NODE  
+
+kubectl get hpa  
+
