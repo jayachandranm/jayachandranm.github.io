@@ -33,7 +33,7 @@ kubectl create -f nfs-server-ebs-pv.yaml
 (No change from GCE version, here it creates an EBS volume with type gp2)  
 kubectl create -f nfs-server-rc.yaml  
 kubectl create -f nfs-server-service.yaml  
-# Get the IP address of NFS server,  
+Get the IP address of NFS server,  
 kubectl describe services nfs-server  
 edit nfs-pv.yaml and update the IP address  
 kubectl create -f nfs-pv.yaml  
