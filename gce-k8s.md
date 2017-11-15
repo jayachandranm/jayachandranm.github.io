@@ -40,7 +40,9 @@ gcloud compute disks delete mysql-disk wordpress-disk
   
 ### Comfort Drupal
 Create GCE_PD for mysql  
+gcloud compute disks create --size 200GB mysql-disk --zone asia-southeast1-a  
 Create the secret for db root user.  
+kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD  
 First deploy the mysql service with LoadBalancer. Then import database from local machine  
 mysql -h <EXT_IP> -u root -p  
 Create the database, user and grant privileges.  
@@ -61,3 +63,19 @@ Check permissions for html files. Ideally they should be www-data.
 How to scale?  
 hostMount -< mounts  a directory.  
 pre-populate GCE_PD from outside docker?  
+
+Follow k8s volume/nfs example from github to create NFS mount and then use that with Drupal.  
+kubectl create -f nfs-server-gce-pv.yaml  
+kubectl create -f nfs-server-rc.yaml  
+kubectl create -f nfs-server-service.yaml  
+get the cluster IP of the server using the following command  
+kubectl describe services nfs-server  
+use the NFS server IP to update nfs-pv.yaml and execute the following  
+kubectl create -f nfs-pv.yaml  
+kubectl create -f nfs-pvc.yaml  
+Create secret  
+Create MySQL  
+Create Drupal  
+
+gcloud container clusters create NAME — zone ZONE — num-nodes=30  — enable-autoscaling — min-nodes=15 — max-nodes=50  
+gcloud container clusters upgrade CLUSTER_NAME [ — cluster-version=X.Y.Z]  
