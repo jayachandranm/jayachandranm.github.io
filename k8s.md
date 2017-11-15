@@ -165,7 +165,6 @@ kubectl delete service -l app=wordpress
 kubectl delete pvc -l app=wordpress  
 kubectl delete pv local-pv-1 local-pv-2  
 
-
 ### Setup
 minikube start  
 (Minikube VM boots into a tmpfs)  
@@ -185,7 +184,9 @@ minikube delete
 
 kubeadm - create custom cluster from scratch  
 kubectl api-versions  
-
+kubeadm - create custom cluster from scratch  
+kubectl api-versions  
+  
 ### StatefulSet
 for i in 0 1; do kubectl exec web-$i -- sh -c 'echo $(hostname) > /usr/share/nginx/html/index.html'; done  
 for i in 0 1; do kubectl exec -it web-$i -- curl localhost; done  
@@ -199,5 +200,11 @@ kubectl patch statefulset web -p '{"spec":{"updateStrategy":{"type":"RollingUpda
 kubectl cordon $MYSQL_NODE  
 kubectl uncordon $MYSQL_NODE  
 
+kubectl get hpa  
+
+ 
+kubectl cordon $MYSQL_NODE  
+kubectl uncordon $MYSQL_NODE  
+  
 kubectl get hpa  
 
