@@ -48,3 +48,5 @@ brctl show docker0
 docker network disconnect -f  
 
 nettool docker image  
+
+docker build --no-cache -t my_image .  
