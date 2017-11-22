@@ -29,3 +29,17 @@ http://www.au.dk/en/about/vacant-positions/scientific-positions/stillinger/Vacan
 
 ''Visiting Assistant Professor of History (Middle East/South Asian History), Denison Uni, Ohio''
 https://careers.insidehighered.com/job/1466164/visiting-assistant-professor-of-history-middle-east-south-asian-history-/
+
+Assistant Professor of South Asian History, Uni of Minnesota,
+https://cla.umn.edu/art-history/news-events/announcement/assistant-professor-south-asian-history
+
+List of Universities,
+https://www.princetonreview.com/college-majors/257/south-asian-studies
+
+South Asian Studies suffers faculty attrition,
+https://yaledailynews.com/blog/2016/04/26/south-asian-studies-suffers-faculty-attrition/
+
+''Program in South Asian Studies, Princeton Uni, Drupal,''
+http://piirs.princeton.edu/sas
+
+https://as.vanderbilt.edu/asianstudies/
