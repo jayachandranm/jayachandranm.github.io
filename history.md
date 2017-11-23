@@ -60,4 +60,5 @@ https://aprecruit.berkeley.edu/apply/JPF01210
 Assistant Professor in Asian Diasporic Literatures, Ph.D. in Asian Diasporic literature (East and South Asian, Asian American and Asian British studies cultures, languages and literatures) or a related field, prio till 1 Nov,
 https://emerson.peopleadmin.com/postings/14851
 
-
+Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
+https://recruit.ap.ucsb.edu/apply/JPF01087
