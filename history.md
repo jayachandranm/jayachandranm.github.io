@@ -62,3 +62,12 @@ https://emerson.peopleadmin.com/postings/14851
 
 Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
 https://recruit.ap.ucsb.edu/apply/JPF01087
+
+
+## PhD
+
+The University of Salzburg (Austria), focus on Persuasive Technology Design.   
+https://hci.sbg.ac.at/open-phd-position-with-focus-on-persuasive-technology-design/  
+https://hci.sbg.ac.at/jobs/  
+Horizon2020 EU project,   
+https://ec.europa.eu/programmes/horizon2020/
