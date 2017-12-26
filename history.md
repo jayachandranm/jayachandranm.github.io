@@ -70,4 +70,8 @@ The University of Salzburg (Austria), focus on Persuasive Technology Design.
 https://hci.sbg.ac.at/open-phd-position-with-focus-on-persuasive-technology-design/  
 https://hci.sbg.ac.at/jobs/  
 Horizon2020 EU project,   
-https://ec.europa.eu/programmes/horizon2020/
+https://ec.europa.eu/programmes/horizon2020/  
+Part-time, full-time and PhD candidate positions, MODUL University Vienna and
+webLyzard technology, Google Digital News Initiative, for conceptualizing and developing novel solutions to challenging
+technical problems, Projects for United Nations and NOAA Climate.gov, Media Analytics, HCI,  
+https://www.modul.ac.at/about/departments/new-media-technology/  
