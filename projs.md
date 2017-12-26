@@ -22,3 +22,6 @@ mosquitto_sub -t \$SYS/broker/bytes/\# -v --cafile ca.crt
   
 ,,Python  
 client1.tls_set(‘c:/python34/steve/MQTT-demos/certs/ca.crt’,tls_version=2)  
+
+
+CI/CD and test cases.
