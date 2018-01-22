@@ -75,3 +75,10 @@ Part-time, full-time and PhD candidate positions, MODUL University Vienna and
 webLyzard technology, Google Digital News Initiative, for conceptualizing and developing novel solutions to challenging
 technical problems, Projects for United Nations and NOAA Climate.gov, Media Analytics, HCI,  
 https://www.modul.ac.at/about/departments/new-media-technology/  
+Because gender bias in computing has been identified as preventing innovation and socially responsible IT design (examples abound in research spanning from algorithms and machine learning, to speech recognition technologies), more interdisciplinary research that bridges gender studies, science and technology studies and computer science is needed.  
+University of Kassel (Germany) is a young university with round about 25.000 students. The university has a broad research profile: fields of expertise are nature, technology, culture and society.  
+https://www.uni-kassel.de/intranet/aktuelles/stellenangebote/stellenausschreibung-details/tx_ukstellenausschreibung/31044.html  
+HCI, The dominant paradigm for interacting with computers now involves new media and multimodal input on cell phones, which involves speech, multi-touch, writing, gestures, images, gaze, and sensors.  
+https://www.monash.edu/it/our-research/graduate-research/scholarship-funded-phd-research-projects/projects/human-centred-mobile-and-multimodal-interfaces  
+
+https://www.lincoln.ac.uk/home/opendays/  
