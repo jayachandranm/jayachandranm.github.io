@@ -213,7 +213,7 @@ kubectl uncordon $MYSQL_NODE
   
 kubectl get hpa  
 
-###Ingress
+### Ingress
 apply for cert for *.dev.example.com  
 edit ingress-controller.yaml to add cert and handle https, use latest version of nginx-ingress (provider, google)  
 create default-backend-service  
@@ -238,7 +238,7 @@ Heapster has to be running in the cluster for the metrics and graphs to be avail
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/monitoring-standalone/v1.7.0.yaml  
 refresh the dashboard page, the CPU, memory matrix will appear after a while  
 
-###aob  
+### aob  
 http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html  
 Resources created in one namespace can be hidden from other namespaces.  
 Network segmentation is important to ensure that containers can communicate only with those they are supposed to.   
