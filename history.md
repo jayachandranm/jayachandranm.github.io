@@ -82,3 +82,8 @@ HCI, The dominant paradigm for interacting with computers now involves new media
 https://www.monash.edu/it/our-research/graduate-research/scholarship-funded-phd-research-projects/projects/human-centred-mobile-and-multimodal-interfaces  
 
 https://www.lincoln.ac.uk/home/opendays/  
+
+### Others
+
+Quality of Life Technology Laboratory at University of Texas at Dallas, pressure ulcer, smartbed   
+http://ecs.utdallas.edu/research/researchlabs/QoLT/index.html  
