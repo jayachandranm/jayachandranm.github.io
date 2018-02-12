@@ -50,3 +50,8 @@ docker network disconnect -f
 nettool docker image  
 
 docker build --no-cache -t my_image .  
+
+docker image prune -a  
+docker tag dr7nav {username}/dr7nav:1.0  
+docker push {username}/dr7nav:1.0  
+docker run -p 4000:80 username/repository:tag  
