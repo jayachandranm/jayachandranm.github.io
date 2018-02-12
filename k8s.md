@@ -17,11 +17,16 @@ kubectl delete deployment dep_name
 kubectl get pods  
 kubectl get pods --show-labels  
 kubectl get pods --output=wide  
+kubectl describe pod pod_name  
 kubectl describe pod_name  
 kubectl logs pod_name  
 kubectl logs --tail=5 pod_name -c container_name  
 kubectl logs -f --since=10s pod_name -c container_name  
+kubectl logs -f -c ruby web-1  
+kubectl logs -f deployment/drupal  
 kubectl exec pod_name cmd  
+kubectl exec -it shell-demo -- /bin/bash  
+login to the EC2 machine like normal. If AWS, use admin user for debian user used by kops.
 kubectl proxy --port=8080  
 ### Service
 kubectl get services (svc)  
@@ -207,4 +212,35 @@ kubectl cordon $MYSQL_NODE
 kubectl uncordon $MYSQL_NODE  
   
 kubectl get hpa  
+
+###Ingress
+apply for cert for *.dev.example.com  
+edit ingress-controller.yaml to add cert and handle https, use latest version of nginx-ingress (provider, google)  
+create default-backend-service  
+kubectl create -f ingress-controller.yaml (nginx deployment and service with ELB)  
+from AWS Route53 create new domain record for *.dev.example.com as CNAME for the nginx-ingress ELB.  
+edit ingress.yaml with subdomains foo.dev.example.com, bar.dev.example.com pointing to different services.  
+use the annotations to force http to https redirect.  
+use the wordpress example for k8s (above), change type from LoadBalancer to NodePort  
+create mysql and wordpress deployments  
+create an echoserver service as second service  
+kubectl -f create ingress.yaml  
+browse https://foo.dev.example.com, https://bar.example.com  
+observe logs, kubectl logs -f deployment/nginx-ingress  
+
+kubectl create -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/kubernetes-dashboard/v1.5.0.yaml  
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml  
+browse https://api.prod-cluster-1.blugraph.services/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy  
+get password for admin from, kubectl config view —minify  
+https://api.prod-cluster-1.blugraph.services/ui (with v1.8.0)  
+select token and just enter the password (kubectl config view —minify)  
+Heapster has to be running in the cluster for the metrics and graphs to be available.  
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/monitoring-standalone/v1.7.0.yaml  
+refresh the dashboard page, the CPU, memory matrix will appear after a while  
+
+###aob  
+http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html  
+Resources created in one namespace can be hidden from other namespaces.  
+Network segmentation is important to ensure that containers can communicate only with those they are supposed to.   
+The standard output and standard error output of each container can be ingested using a Fluentd agent running on each node into either Google Stackdriver Logging or into Elasticsearch and viewed with Kibana.  
 
