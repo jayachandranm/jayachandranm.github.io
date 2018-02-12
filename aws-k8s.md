@@ -28,6 +28,16 @@ kubectl -n kube-system get po
 
 kops delete cluster --name ${NAME} --yes  
 
+
+### Upgrade
+https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/  
+First download latest kops binary and replace /usr/local/bin/kops  
+kops upgrade cluster --name prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store (preview)  
+kops upgrade cluster --name prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store --yes (modify config)  
+kops update cluster --name prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store --yes (upgrade)  
+kops rolling-update cluster prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store --yes  
+
+
 ### Comfort 
 kubectl create -f nfs-server-ebs-pv.yaml  
 (No change from GCE version, here it creates an EBS volume with type gp2)  
