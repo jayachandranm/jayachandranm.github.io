@@ -92,6 +92,21 @@ https://emerson.peopleadmin.com/postings/14851
 
 ## PhD
 
+Institute for Information Management Bremen at the University of Bremen (Germany),  
+PD, role is defined as building a bridge between computer science and social science. For this, we are looking for a computer scientist with experience in computational social science or a social scientist with proven experience in database design, machine learning, and human-computer interaction.  
+PhD, Your focus will be on the user-centered design and development of novel data visualization tools.  
+https://www.uni-bremen.de/universitaet/die-uni-als-arbeitgeber/offene-stellen/detailansicht/joblist/Job/show/1-x-10-phd-researcher-in-informatics-human-computer-interaction-4609.html  
+ 
+@@@The L3S Research Center, Hannover, Germany, invites applications for a position in the context of the Open Course Ware platform SlideWiki and Open Research Knowledge Graph.  
+http://slidewiki.org/  
+https://zenodo.org/record/1157185  
+
+@@PhD focused on the design of new technologies to support mental health interventions for young people. H2020 project. The present position at DTU is focused on "Open-Access Data Platform for Behavioural Monitoring and Visual Analytics for Mental Health".  We are seeking excellent and ambitious candidates with a background in computer science or software engineering.  
+http://www.team-itn.eu/  
+
+@HCI at KU Leuven in Belgium, to research meaningful visualisations for large and heterogeneous datasets, taking into account the aspects of data quality and uncertainty.  The research is funded by the H2020 BigDataGrapes project.  
+http://hci.cs.kuleuven.be/  
+
 The University of Salzburg (Austria), focus on Persuasive Technology Design.   
 https://hci.sbg.ac.at/open-phd-position-with-focus-on-persuasive-technology-design/  
 https://hci.sbg.ac.at/jobs/  
