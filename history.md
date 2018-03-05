@@ -1,5 +1,8 @@
 ## south asian, indian history
 
+H-Asia jobs listing,  
+https://networks.h-net.org/node/22055/pages/23332/job-ads-h-asia  
+
 
 Postdoctoral Fellow, Middle East & South Asia Studies (Hindi/Urdu)  
 https://www.indeed.com/viewjob?jk=a0312563d5bcc3a5&tk=1c7q5etitbsd4e0l&from=serp&vjs=3  
