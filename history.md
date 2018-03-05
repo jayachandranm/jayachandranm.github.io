@@ -2,6 +2,27 @@
 
 H-Asia jobs listing,  
 https://networks.h-net.org/node/22055/pages/23332/job-ads-h-asia  
+(..
+
+Assistant Professor/East Asian History, University of Pittsburgh  
+
+Assistant Professor of Asian History, Indiana State University  
+
+Full Professor, History of South Asia, Heidelberg University  
+
+Assistant Professor of History, East Asia, University of Mississippi  
+
+Full-time Lecturer in Hinduism, University of North Carolina - Charlotte  
+
+History History Lecturer (Asia), University of Florida  
+
+Assistant Professor of Asian History, Georgia College & State University 
+
+Post Doctoral Fellowship in South Asian Studies (Humanities and Social Sciences), Yale University  
+
+Visiting Assistant Professor of African, Middle Eastern, or South Asian History, Reed College  
+
+..)
 
 Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
 https://recruit.ap.ucsb.edu/apply/JPF01087
