@@ -3,6 +3,8 @@
 H-Asia jobs listing,  
 https://networks.h-net.org/node/22055/pages/23332/job-ads-h-asia  
 
+Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
+https://recruit.ap.ucsb.edu/apply/JPF01087
 
 Postdoctoral Fellow, Middle East & South Asia Studies (Hindi/Urdu)  
 https://www.indeed.com/viewjob?jk=a0312563d5bcc3a5&tk=1c7q5etitbsd4e0l&from=serp&vjs=3  
@@ -65,9 +67,6 @@ https://aprecruit.berkeley.edu/apply/JPF01210
 
 Assistant Professor in Asian Diasporic Literatures, Ph.D. in Asian Diasporic literature (East and South Asian, Asian American and Asian British studies cultures, languages and literatures) or a related field, prio till 1 Nov,
 https://emerson.peopleadmin.com/postings/14851
-
-Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
-https://recruit.ap.ucsb.edu/apply/JPF01087
 
 
 ## PhD
