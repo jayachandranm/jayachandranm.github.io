@@ -26,7 +26,18 @@ Visiting Assistant Professor of African, Middle Eastern, or South Asian History,
 
 Asia-Related Programs  
 https://www.colorado.edu/cas/resources/global-resources/other-asia-related-programs
-
+(http://www.indiana.edu/~isp/
+https://car.clas.asu.edu/bios
+https://sas.fas.harvard.edu/people?page=1
+https://sap.einaudi.cornell.edu/
+http://sseas.berkeley.edu/courses
+http://www.csames.illinois.edu/program/southasian/
+https://www.ii.umich.edu/csas/
+https://liberalarts.utexas.edu/southasia/faculty/index.php
+http://artsandsciences.virginia.edu/soasia/index.html
+https://jsis.washington.edu/southasia/programs/courses/
+..
+)
 
 Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
 https://recruit.ap.ucsb.edu/apply/JPF01087
