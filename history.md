@@ -24,6 +24,10 @@ Visiting Assistant Professor of African, Middle Eastern, or South Asian History,
 
 ..)
 
+Asia-Related Programs  
+https://www.colorado.edu/cas/resources/global-resources/other-asia-related-programs
+
+
 Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
 https://recruit.ap.ucsb.edu/apply/JPF01087
 
