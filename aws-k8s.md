@@ -26,6 +26,8 @@ kubectl cluster-info
 Various components,  
 kubectl -n kube-system get po  
 
+edit node.88 IAM role  and add DDB access role  
+
 kops delete cluster --name ${NAME} --yes  
 
 
@@ -37,6 +39,7 @@ kops upgrade cluster --name prod-cluster-1.blugraph.services --state=s3://k8s-bl
 kops update cluster --name prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store --yes (upgrade)  
 kops rolling-update cluster prod-cluster-1.blugraph.services --state=s3://k8s-blugraph-services-state-store --yes  
 
+The policies will be overwritten, update again.  
 
 ### Comfort 
 kubectl create -f nfs-server-ebs-pv.yaml  
@@ -54,3 +57,10 @@ kubectl create -f drupal-deployment.yaml
 kubectl get services  
 (A load balancer will be created)  
 Get the full address of ELB from AWS web.  
+
+arkadm
+bgnav1.....ap-southeast-1.rds.amazonaws.com
+
+knpnav- a..4r...NV
+knpnav_d7, knpnav_data
+
