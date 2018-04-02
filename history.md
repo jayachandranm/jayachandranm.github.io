@@ -107,6 +107,16 @@ https://emerson.peopleadmin.com/postings/14851
 
 ## PhD
 
+@@@Netherlands, Post-Master PDEng Trainee Information and Communication Technology,   
+PhD in playful science-learning, Department of Industrial Design, Eindhoven University of Technology,  
+@@PhD in interaction design of rehabilitation technologies, EU funded project i2CoRT, stroke rehabilitation, wheelchair use,  
+https://www.tue.nl/en/university/departments/industrial-design/  
+
+@@PhD in Virtual Reality, Knowledge of the main 3D Engines (e.g. Unity and Unreal) and hardware frameworks (e.g. Arduino) is preferable.  
+Human-Computer Interaction research group at the Department of Computer Science of KU Leuven,  
+http://aria.cs.kuleuven.be/  
+
+
 Institute for Information Management Bremen at the University of Bremen (Germany),  
 PD, role is defined as building a bridge between computer science and social science. For this, we are looking for a computer scientist with experience in computational social science or a social scientist with proven experience in database design, machine learning, and human-computer interaction.  
 PhD, Your focus will be on the user-centered design and development of novel data visualization tools.  
