@@ -107,6 +107,10 @@ https://emerson.peopleadmin.com/postings/14851
 
 ## PhD
 
+Immersive & Creative Technologies Lab at Concordia University, Montreal, Quebec, Canada,
+@PhD, Large-scale Urban Reconstruction, Classification, and Rendering from Remote Sensor Imagery
+http://theictlab.org/
+
 @@@Netherlands, Post-Master PDEng Trainee Information and Communication Technology,   
 PhD in playful science-learning, Department of Industrial Design, Eindhoven University of Technology,  
 @@PhD in interaction design of rehabilitation technologies, EU funded project i2CoRT, stroke rehabilitation, wheelchair use,  
