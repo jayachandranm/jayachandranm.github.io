@@ -1,5 +1,10 @@
 ## south asian, indian history
 
+
+http://www.cseashawaii.org/deadlines/jobs/  
+https://chroniclevitae.com/job_search/new  
+https://www.idealist.org  
+
 H-Asia jobs listing,  
 https://networks.h-net.org/node/22055/pages/23332/job-ads-h-asia  
 (..
@@ -38,6 +43,12 @@ http://artsandsciences.virginia.edu/soasia/index.html
 https://jsis.washington.edu/southasia/programs/courses/
 ..
 )
+
+Visiting assistant professor, South Asian History,  
+https://www.h-net.org/jobs/job_display.php?id=56681  
+
+It's study on Vivekananda,  
+https://chroniclevitae.com/jobs/0000421192-01  
 
 Assistant Professor in Modern South Asia, Next review date: November 24th, 2017. UC Santa Barbara.
 https://recruit.ap.ucsb.edu/apply/JPF01087
