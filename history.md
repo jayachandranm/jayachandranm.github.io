@@ -124,6 +124,8 @@ http://www.alllaw.com/articles/nolo/us-immigration/is-it-marriage-fraud-no-payme
 
 https://www.nolo.com/legal-encyclopedia/free-books/fiance-marriage-visa-book/chapter1-6.html  
 
+https://www.immihelp.com/greencard/familybasedimmigration/marriage-based-greencard-fraud-interview.html  
+
 
 ## PhD
 
