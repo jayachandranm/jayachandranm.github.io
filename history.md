@@ -116,16 +116,6 @@ Assistant Professor in Asian Diasporic Literatures, Ph.D. in Asian Diasporic lit
 https://emerson.peopleadmin.com/postings/14851
 
 
-## Legal
-
-http://www.alllaw.com/articles/nolo/us-immigration/penalties-marriage-fraud.html  
-
-http://www.alllaw.com/articles/nolo/us-immigration/is-it-marriage-fraud-no-payment.html  
-
-https://www.nolo.com/legal-encyclopedia/free-books/fiance-marriage-visa-book/chapter1-6.html  
-
-https://www.immihelp.com/greencard/familybasedimmigration/marriage-based-greencard-fraud-interview.html  
-
 
 ## PhD
 
