@@ -169,3 +169,5 @@ https://www.lincoln.ac.uk/home/opendays/
 
 Quality of Life Technology Laboratory at University of Texas at Dallas, pressure ulcer, smartbed   
 http://ecs.utdallas.edu/research/researchlabs/QoLT/index.html  
+
+https://www.nolo.com/legal-encyclopedia/tenants-right-break-rental-lease-florida.html  
