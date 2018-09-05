@@ -167,6 +167,8 @@ https://www.lincoln.ac.uk/home/opendays/
 
 ### Others
 
+https://www.woodatter.com/foreclosure-defense.html  
+
 Quality of Life Technology Laboratory at University of Texas at Dallas, pressure ulcer, smartbed   
 http://ecs.utdallas.edu/research/researchlabs/QoLT/index.html  
 
