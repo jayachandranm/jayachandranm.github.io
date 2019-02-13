@@ -61,3 +61,6 @@ pip3 install h5py
 python extract_single_letters_from_captchas.py  
 python train_model.py  
 python solve_captchas_with_model.py  
+
+AWS  
+SELECT *, timestamp() as ts, sid, parse_time("yyyy-MM-dd HH:mm:ss", ts_r*1000, "Asia/Singapore") as ts_r FROM ..  
