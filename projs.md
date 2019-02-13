@@ -64,3 +64,4 @@ python solve_captchas_with_model.py
 
 AWS  
 SELECT *, timestamp() as ts, sid, parse_time("yyyy-MM-dd HH:mm:ss", ts_r*1000, "Asia/Singapore") as ts_r FROM ..  
+SELECT *, ts_r*1000 as ts, 'hs' as err, parse_time("yyyy-MM-dd HH:mm:ss", ts_r*1000, "Asia/Singapore") as ts_r FROM ..
