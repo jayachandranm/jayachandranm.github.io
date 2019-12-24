@@ -23,6 +23,7 @@ docker run -d --name dr7 --network=br_nw_1 -p 8080:80 drupal:7-apache
 (if the application runs on 127.0.0.1 it wont respond to request from outside docker, use 0.0.0.0 instead.)  
 docker run -e MYSQL_ROOT_PASSWORD=[] -e MYSQL_DATABASE=dr7 -e MYSQL_USER=dr7 -e MYSQL_PASSWORD=[] -v mariadb:/var/lib/mysql --network=br_nw_1 -p3308:3306 -d --name mariadb mariadb  
 docker exec -it dr7 bash  
+docker exec -it --user root dr7 bash  
 docker attach dr7  
 iptables -t nat -L -n  
 docker port dr7  
