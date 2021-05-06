@@ -28,6 +28,8 @@ kubectl -n kube-system get po
 
 edit node.88 IAM role  and add DDB access role  
 
+export KOPS_STATE_STORE=s3://k8s-[123]-state-store
+kops get cluster
 kops delete cluster --name ${NAME} --yes  
 
 
