@@ -31,7 +31,7 @@ docker ps -l
 mysql -h0.0.0.0 -P3306 -udr7 -p  
 docker volume ls  
 docker image inspect <image>  
-container rm $(docker container ls -a -q)  
+docker container rm $(docker container ls -a -q)  
 docker history <image id>  
 docker logs <instance id>  
 docker ps -a (show inactive as well)  
