@@ -69,3 +69,5 @@ docker image prune -a
 docker tag dr7nav {username}/dr7nav:1.0  
 docker push {username}/dr7nav:1.0  
 docker run -p 4000:80 username/repository:tag  
+ 
+https://forums.docker.com/t/how-do-i-change-the-docker-image-installation-directory/1169
