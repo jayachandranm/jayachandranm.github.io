@@ -31,6 +31,8 @@ docker ps -l
 mysql -h0.0.0.0 -P3306 -udr7 -p  
 docker volume ls  
 docker image inspect <image>  
+Delete dangling images (<none>)  
+docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 docker container rm $(docker container ls -a -q)  
 docker history <image id>  
 docker logs <instance id>  
